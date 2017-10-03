@@ -10,6 +10,7 @@ public class MementoFormulário {
     private String bloco;
     private String setor;
     private String descricao;
+    private int quantidade;
 
     public MementoFormulário(String solicitante, String apartamento, String bloco, String setor, String descricao){
         this.solicitante = solicitante;
